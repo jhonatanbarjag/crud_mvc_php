@@ -4,7 +4,7 @@
     private $host = 'localhost';
     private $db_name = 'prueba';
     private $user = 'root';
-    private $password = '';
+    private $password = 'root321';
 
     public function conexion(){
         try{
@@ -17,6 +17,5 @@
         }
     }
     }
-    $objecto = new db(); // esto crea una instancia de la clase db
-    print_r($objecto->conexion()); // esta linea imprime la conexion a la base de datos
+    
 ?>

@@ -7,8 +7,8 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     </head>
     <body>
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid bg-dark p-2 mb-3">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="/crud_mvc_php/index.php">Inicio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,4 +30,8 @@
             </div>
         </div>
     </nav>
+    </div>
+
+    <div class= "container-fluid">
+
 
